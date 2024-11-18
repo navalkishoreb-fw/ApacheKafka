@@ -1,9 +1,9 @@
 kafka:
   topic: "hypertrail-dev-v2"
-  brokers: ["54.81.123.72:9093"]
+  brokers: []
   group: "freshservice-workflow-service"
-  sasl_username: "JFMDSFVTTY2BXQT2"
-  sasl_password: "5F(Ug5eYRb2YcKZaaYp9V@uK(PMg^3oy7hYW6E4e^6#N@f3ZyCU6DSg4wjHSu$s!"
+  sasl_username: ""
+  sasl_password: ""
 key_pattern:
   - "workspace_create"
   - "account_create"
