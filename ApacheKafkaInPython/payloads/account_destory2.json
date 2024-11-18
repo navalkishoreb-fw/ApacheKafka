@@ -1,0 +1,67 @@
+{
+  "data": {
+    "payload": {
+      "associations": {},
+      "product_push_timestamp": "2024-11-13T18:47:54+05:30",
+      "changes": {
+        "model_changes": {},
+        "system_changes": [],
+        "misc_changes": {}
+      },
+      "action_epoch": 1.7315038741785119E9,
+      "event_timestamp": "2024-11-13T13:17:54.178Z",
+      "uuid": "b0fb2d5ea1c111ef82ccbec7a72d8d33-fr_account_destroy",
+      "accept": false,
+      "mkp_accept": true,
+      "actor": {
+        "id": 23547518,
+        "name": "System",
+        "type": 0
+      },
+      "event_info": {
+        "ip_address": null,
+        "message_uuid": null,
+        "meta": "disable_fv_mode_labels"
+      },
+      "account_full_domain": "irzinfocity13131451.freshregression.com",
+      "action": "destroy",
+      "model_properties": {
+        "id": 831718152,
+        "name": "irzinfocity13131451",
+        "full_domain": "irzinfocity13131451.freshregression.com",
+        "cname": null,
+        "created_at": "2024-11-13T18:44:52+05:30",
+        "updated_at": "2024-11-13T18:44:52+05:30",
+        "admin_email": "fs.test12@gmail.com",
+        "admin_first_name": "infocity",
+        "admin_last_name": "",
+        "admin_phone": null,
+        "fs_cookie": null,
+        "time_zone": "Chennai",
+        "time_format": "12h",
+        "sandbox_account": false,
+        "mode": 1,
+        "analytics_opt_in": true,
+        "primary_language": "en",
+        "date_format": "non_us",
+        "bundle_id": "776797286278599180",
+        "fr_account_id": null,
+        "workspace_filter": 1
+      },
+      "model": "Account"
+    },
+    "payload_type": "fr_account_destroy",
+    "account_id": "831718152",
+    "service": "freshservice",
+    "msg_id": "b0fb2d5ea1c111ef82ccbec7a72d8d33-fr_account_destroy",
+    "region": "us-east-1",
+    "pod": "poduseast1",
+    "payload_version": "1.0.0"
+  },
+  "meta": {
+    "central": {
+      "request_id": "162e3fa3-39c5-4f57-81e9-718d26213a87",
+      "collected_at": 1731503874193
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "payload": {
+      "associations": {},
+      "product_push_timestamp": "2024-11-13T19:52:44+05:30",
+      "changes": {
+        "model_changes": {},
+        "system_changes": [],
+        "misc_changes": {}
+      },
+      "action_epoch": 1.7315077520215278E9,
+      "event_timestamp": "2024-11-13T14:22:32.021Z",
+      "uuid": "b859a270a1ca11efba41ce3fe2e43838-workspace_destroy",
+      "accept": true,
+      "mkp_accept": true,
+      "actor": {
+        "id": 15892453,
+        "name": "System",
+        "type": 0
+      },
+      "event_info": {
+        "ip_address": null,
+        "message_uuid": "2cf933f6-f271-43bc-b66a-cc304564af23",
+        "api_to_central": false
+      },
+      "account_full_domain": "vviinfocity09115521.freshcmdb.com",
+      "action": "destroy",
+      "model_properties": {
+        "created_at": "2024-09-13T19:42:48+05:30",
+        "description": "Test Dec",
+        "display_id": 10,
+        "id": 1101687759,
+        "name": "IT240913141238_10",
+        "preferences": {},
+        "primary": false,
+        "restricted": false,
+        "state": 2,
+        "template_type": 1,
+        "updated_at": "2024-09-13T19:52:27+05:30",
+        "workspace_logo": null,
+        "workspace_filter": 10
+      },
+      "model": "Workspace"
+    },
+    "payload_type": "workspace_destroy",
+    "account_id": "102261196",
+    "service": "freshservice",
+    "msg_id": "b859a270a1ca11efba41ce3fe2e43838-workspace_destroy",
+    "region": "us-east-1",
+    "pod": "poduseast1",
+    "payload_version": "1.0.0"
+  },
+  "meta": {
+    "central": {
+      "request_id": "58aae50e-edd7-46dd-b9fd-b37ee22973c4",
+      "collected_at": 1731507764887
+    }
+  }
+}
