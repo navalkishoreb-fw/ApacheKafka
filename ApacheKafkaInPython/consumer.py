@@ -1,16 +1,20 @@
 import csv
+import yaml
 from datetime import datetime
 
 from kafka import KafkaConsumer
 
-TOPIC = "hypertrail-dev-v2"
-BROKERS = ["54.81.123.72:9093"]
-GROUP = "freshservice-workflow-service"
-SASL_USERNAME = "JFMDSFVTTY2BXQT2"
-SASL_PASSWORD = "5F(Ug5eYRb2YcKZaaYp9V@uK(PMg^3oy7hYW6E4e^6#N@f3ZyCU6DSg4wjHSu$s!"
+config_file = 'config.yaml'
+with open(config_file, 'r') as file:
+    config = yaml.safe_load(file)
 
-# Define the key pattern to filter on
-key_pattern = ["workspace_create", "account_create", "workspace_destroy", "account_destroy"]
+TOPIC = config['kafka']['topic']
+BROKERS = config['kafka']['brokers']
+GROUP = config['kafka']['group']
+SASL_USERNAME = config['kafka']['sasl_username']
+SASL_PASSWORD = config['kafka']['sasl_password']
+key_pattern = config['key_pattern']
+
 
 # Set up the Kafka consumer
 consumer = KafkaConsumer(
